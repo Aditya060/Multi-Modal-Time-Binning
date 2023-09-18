@@ -3,11 +3,11 @@ Product 1 URL - "https://www.flipkart.com/apple-iphone-12-black-64-gb/product-re
 
 RUN in the order
 
-1)flip.py
+1) flip.py
 
-2)clean_csv.py
+2) clean_csv.py
 
-3)clean_csv2.py
+3) clean_csv2.py
 
 Final-Dataset - sorted.csv
 
