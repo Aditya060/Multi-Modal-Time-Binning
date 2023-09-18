@@ -13,3 +13,5 @@ Final-Dataset - sorted.csv
 
 
 Change iterations in Line-34 in flip.py to scrape more reviews.
+![image](https://github.com/Aditya060/Multi-Modal-Time-Binning/assets/51037240/e082a03b-4f7c-4cce-9aa5-da5f9e7eb024)
+
