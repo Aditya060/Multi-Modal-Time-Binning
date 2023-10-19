@@ -63,5 +63,12 @@ df = df.sort_values(by='Processed_Date')
 # Reset the index
 df.reset_index(drop=True, inplace=True)
 
+#Re group the dataframe to index, date, 5,4,3,2,1 (counts of individual ratings for each month)
+ df['Processed_Date'] = pd.to_datetime(df['Processed_Date'])
+ df['Month'] = df['Processed_Date'].dt.to_period('M')
+ result = df.groupby(['Month', 'Index']).size().unstack(fill_value=0).reset_index()
+ #print(result)
+
+
 # Save the sorted DataFrame back to a CSV file
 df.to_csv('sorted_file.csv', index=False)  # Replace 'sorted_file.csv' with your desired output filename
