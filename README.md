@@ -14,4 +14,6 @@ Final-Dataset - sorted.csv
 
 Change iterations in Line-34 in flip.py to scrape more reviews.
 
+Run app2.py in /User Interface
+
 
